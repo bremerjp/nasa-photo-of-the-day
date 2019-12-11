@@ -4,12 +4,9 @@ import PhotoCard from "./PhotoCard";
 
 export default function PhotoData() {
   const [photo, setPhoto] = useState([]);
-  const [date, setDate] = useState([]);
-
   useEffect(() => {
     axios
       .get(`https://api.nasa.gov/planetary/apod?api_key=zUQnuRDac7vc1HWP5T7cHmS9cDJuJUnFdfmgKigk`)
-      //&date=2014-07-14
       .then(response => {
         const nasaPhoto = response.data;
         setPhoto(nasaPhoto);
@@ -22,7 +19,6 @@ export default function PhotoData() {
 
   return (
     <div className="photo-card">
-          
           <PhotoCard 
           key={photo.date}
           title={photo.title}
