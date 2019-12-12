@@ -1,7 +1,12 @@
 .App {
   text-align: center;
-  width: 800px;
+  max-width: 1600px;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 20px 0;
 }
 
 .App-logo {
@@ -25,9 +30,9 @@
   color: #61dafb;
 }
 
-img {
+/* img {
   width: 600px;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
