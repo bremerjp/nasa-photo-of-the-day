@@ -33,7 +33,7 @@ const PhotoCard = props => {
           </Button>
           <Form className="m-3 w-25 mx-auto">
             <Input
-              className="mt-3"
+              className="mt-3 text-center"
               type="text"
               placeholder="YYYY-MM-DD"
               onChange={change}
