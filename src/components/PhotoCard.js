@@ -31,7 +31,7 @@ const PhotoCard = props => {
           <Button onClick={() => window.open(imageHDUrl)} className="button">
             View Full Image
           </Button>
-          <Form className="m-3 w-25 mx-auto">
+          <Form className="m-3 w-50 mx-auto">
             <Input
               className="mt-3 text-center"
               type="text"
