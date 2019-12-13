@@ -28,10 +28,13 @@ const PhotoCard = props => {
           <CardTitle className="display-5 font-weight-bold">{title}</CardTitle>
           <CardSubtitle className="text-muted">Date: {date}</CardSubtitle>
           <CardText>{description}</CardText>
-          <Button onClick={() => window.open(imageHDUrl)} className="button">
+          <Button
+            onClick={() => window.open(imageHDUrl)}
+            className="button w-75"
+          >
             View Full Image
           </Button>
-          <Form className="m-3 w-50 mx-auto">
+          <Form className="m-3 w-75 mx-auto">
             <Input
               className="mt-3 text-center"
               type="text"
