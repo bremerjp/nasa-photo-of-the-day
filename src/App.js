@@ -5,7 +5,7 @@ import PhotoData from "./components/PhotoData";
 function App() {
   return (
     <div style={{ backgroundColor: "#f1f1f1" }} className="App p-3">
-      <h1>NASA Astronomy Picture of the Day</h1>
+      <h1>NASA Photo of the Day</h1>
       <PhotoData />
     </div>
   );
